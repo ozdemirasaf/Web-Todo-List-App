@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: pink;
+}
+
+
+.create-todo {
+    padding: 80px 80px 0 0;
+}
+
+
+.navbars {
+    display: flex;
+    padding: 18px 0 10px 0;
+    background-color: #fff;
+}
+
+.navbars h4,
+img {
+    margin-left: 20px;
+}
+
+.content {
+    background-color: #fff;
+
+}
+
+.content ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content ul li input {
+    margin-right: 25px;
+    margin-bottom: 12px;
+}
+
+.content ul li small img {
+    margin-right: 23px;
+    margin-bottom: 10px;
+}
